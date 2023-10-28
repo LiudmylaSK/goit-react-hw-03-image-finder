@@ -2,24 +2,27 @@
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+
+  width: 100vw;
+  height: 100vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  width: 100vw;
-  height: 100vh;
-
   background-color: rgba(0, 0, 0, 0.8);
-  z-index: 1100;
+  z-index: 1200;
 }
 
-.largeImage {
+/* .modal {
   max-width: calc(100vw - 44px);
+  max-height: calc(100vh - 24px);
+} */
+
+.largeImage {
   width: 100%;
-  max-height: calc(100vh - 44px);
+  max-width: calc(100vw - 44px);
+  max-height: calc(100vh - 24px);
 
   background-color: #fff;
   padding: 10px;

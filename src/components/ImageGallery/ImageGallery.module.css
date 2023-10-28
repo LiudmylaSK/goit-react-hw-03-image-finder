@@ -5,8 +5,5 @@
   grid-template-columns: repeat(auto-fill, minmax(276px, 1fr));
   grid-gap: 16px;
 
-  margin-top: 30px;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto;
 }

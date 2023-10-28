@@ -7,6 +7,7 @@ import { Button } from "./Button/Button";
 import { Loader } from "./Loader/Loader";
 import { Modal } from "./Modal/Modal";
 
+
 export class App extends Component {
 
   state = {
@@ -52,6 +53,8 @@ export class App extends Component {
     const search = evt.currentTarget.elements.search.value;
     this.setState({ query: search, page: 1 }, this.fetchAllImages);
   };
+
+  
 
   openModal = selectedImage => {
     this.setState({ activeImage: selectedImage, isModalOpen: true });
